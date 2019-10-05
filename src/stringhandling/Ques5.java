@@ -8,7 +8,7 @@ public class Ques5 {
         Scanner obj = new Scanner(System.in);
         String string = obj.next();
         String substring = obj.next().trim();
-        string newsubstring = obj.nextLine();
+        String newsubstring = obj.nextLine();
         System.out.println(string.replace(substring, newsubstring));
 
     }

@@ -8,7 +8,7 @@ public class Ques3 {
         String string = obj.nextLine();
         for (int i = 0; i < string.length(); i++) {
             if (string.charAt(i) == 'a' || string.charAt(i) == 'e' || string.charAt(i) == 'i' || string.charAt(i) == 'o' || string.charAt(i) == 'u') {
-                string = string.replace(string.charAt(i), '*')
+                string = string.replace(string.charAt(i), '*');
             }
 
         }
